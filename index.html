@@ -65,7 +65,8 @@ nav a:hover::after{transform:scaleX(1)}
 .phil p{margin:0;color:#555;font-weight:400;letter-spacing:.06em;font-size:clamp(16px,1.6vw,18px)}
 .phil p+p{margin-top:18px}
 .pillars{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 48px;margin:48px 0 0;padding:0;list-style:none}
-.pillars li{flex:1 1 280px;max-width:340px;padding:22px 18px;border-top:3px solid var(--cyan);background:var(--bg);text-align:left;font-weight:700;font-size:15.5px;line-height:1.7}
+.pillars li{flex:1 1 280px;max-width:340px;padding:22px 18px;border-top:3px solid var(--cyan);background:var(--bg);text-align:left;font-weight:700;font-size:15.5px;line-height:1.7;box-shadow:0 1px 6px rgba(20,30,50,.06);transition:transform .18s,box-shadow .18s}
+.pillars li:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(20,30,50,.10)}
 .pillars b{display:block;letter-spacing:.14em;color:var(--cyan-text);font-size:14px}
 
 /* ---------- services ---------- */
@@ -80,7 +81,8 @@ nav a:hover::after{transform:scaleX(1)}
 .policy{margin-top:96px}
 .circles{display:flex;flex-wrap:wrap;justify-content:center;gap:40px 56px;margin:56px 0 0;padding:0;list-style:none}
 .circles li{flex:0 1 190px;text-align:center}
-.circles .c{display:flex;align-items:center;justify-content:center;width:96px;height:96px;margin:0 auto;border-radius:50%;background:var(--cyan-fill);color:#fff;font-weight:700;font-size:30px;letter-spacing:.02em}
+.circles .c{display:flex;align-items:center;justify-content:center;width:96px;height:96px;margin:0 auto;border-radius:50%;background:var(--cyan-fill);color:#fff;font-weight:700;font-size:30px;letter-spacing:.02em;box-shadow:0 1px 6px rgba(20,30,50,.06);transition:transform .18s,box-shadow .18s}
+.circles .c:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(20,30,50,.10)}
 .circles h4{margin:20px 0 0;font-size:15px;font-weight:700}
 .circles p{margin:4px 0 0;font-size:12.5px;color:var(--sub);line-height:1.7}
 
